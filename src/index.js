@@ -11,6 +11,11 @@ app.server = http.createServer(app);
 
 //middleware
 
+//bodyparser
+app.use(bodyParser.json({
+    limit: config.bodyLimit
+}));
+
 //passport config
 
 //api routes v1
