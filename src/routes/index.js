@@ -2,9 +2,9 @@ import express from "express";
 
 import config from '../config';
 
-import middleware from '../middleware';
-
 import initializeDb from '../db';
+
+import middleware from '../middleware';
 
 let router = express();
 //connect to db
